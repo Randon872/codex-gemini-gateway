@@ -1,0 +1,16 @@
+runtime/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.log
+*.jsonl
+*.pid
+__pycache__/
+*.pyc
+.DS_Store
+openai-models.json
+config.toml
+auth.json
+local-credentials.json

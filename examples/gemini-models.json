@@ -1,0 +1,84 @@
+{
+  "models": [
+    {
+      "slug": "gemini-4-neon",
+      "display_name": "Gemini 4 Neon",
+      "description": "Gemini through a separately configured local AIStudio2API backend",
+      "base_instructions": "You are Gemini, a coding assistant collaborating with the user. Follow the user instructions and applicable AGENTS.md guidance. Use the available tools when needed, verify important changes, and report results accurately.",
+      "default_reasoning_level": "high",
+      "supported_reasoning_levels": [
+        {
+          "effort": "low",
+          "description": "Low reasoning"
+        },
+        {
+          "effort": "medium",
+          "description": "Medium reasoning"
+        },
+        {
+          "effort": "high",
+          "description": "High reasoning"
+        }
+      ],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 0,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "context_window": 1048576,
+      "effective_context_window_percent": 90,
+      "input_modalities": [
+        "text"
+      ],
+      "experimental_supported_tools": [],
+      "additional_speed_tiers": [],
+      "service_tiers": [],
+      "upgrade": null,
+      "supports_search_tool": false
+    },
+    {
+      "slug": "gemini-4-hydrogen",
+      "display_name": "Gemini 4 Hydrogen",
+      "description": "Gemini through a separately configured local AIStudio2API backend",
+      "base_instructions": "You are Gemini, a coding assistant collaborating with the user. Follow the user instructions and applicable AGENTS.md guidance. Use the available tools when needed, verify important changes, and report results accurately.",
+      "default_reasoning_level": "high",
+      "supported_reasoning_levels": [
+        {
+          "effort": "low",
+          "description": "Low reasoning"
+        },
+        {
+          "effort": "medium",
+          "description": "Medium reasoning"
+        },
+        {
+          "effort": "high",
+          "description": "High reasoning"
+        }
+      ],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 1,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "context_window": 1048576,
+      "effective_context_window_percent": 90,
+      "input_modalities": [
+        "text"
+      ],
+      "experimental_supported_tools": [],
+      "additional_speed_tiers": [],
+      "service_tiers": [],
+      "upgrade": null,
+      "supports_search_tool": false
+    }
+  ]
+}
